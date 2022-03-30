@@ -1,0 +1,81 @@
+/* general */
+
+.btn {
+    font-size:0.8rem;
+}
+
+/* header */
+
+.header {
+    padding: 1rem 1rem;
+}
+
+.nav {
+    flex-direction: column;
+    gap:1rem;
+}
+
+.nav h1 {
+    padding: 1rem;
+}
+
+.nav ul {
+    flex-direction: column;
+    width: 100%;
+    align-items:stretch;
+    text-align: center;
+}
+
+/* main */
+
+.main-wrap h1 {
+    font-size:2.1rem;
+    padding: 0 1rem;
+}
+
+.main-wrap p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 0.2rem 1rem;
+}
+
+/* features */
+
+.features .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+.feature {
+    margin-top: 1rem;
+}
+
+/* where */
+
+.where {
+    flex-direction: column;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.where-img {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.where-address {
+    padding: 0 1rem;
+}
+
+/* contact */
+
+.contact {
+    max-width: 300px;
+    padding: 4rem 0;
+}
+
+.form-container .btn {
+    width: 50%;
+    margin: auto;
+}

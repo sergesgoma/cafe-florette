@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" media="only screen and (max-width: 500px)" href="./css/styles.mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c6f4b89e6b.js" crossorigin="anonymous"></script>
+    <title>Café Florette | Contact</title>
+    <link rel="icon" type="image/x-icon" href="/img/latte.png">
+</head>
+<body>
+    <div class="wraparound">
+        <header class="header">
+            <nav class="nav"> 
+                <h1>
+                    <a href="/">CAFE FLORETTE</a>
+                </h1>
+                <ul>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="./where.html">Nous trouver</a></li>
+                    <li><a class="active" href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contact">
+                <form action="/" class="form" method="post">
+                    <h1 class="underline center">Une question ? Contactez-nous !</h1>
+                    <div class="form-container">
+                        <div class="label-container my-20">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" name="nom" placeholder="Votre nom">
+                        </div>
+                        <div class="label-container">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+                        </div>
+                        <div class="label-container my-20">
+                            <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Votre email">
+                        </div>
+                        <div class="my-10">
+                        <label for="question">Questions et remarques :</label>
+                        <textarea name="question" id="question" name="question" class="my-10"></textarea>
+                        </div>
+                        <button class="btn btn-dark my-0">SOUMETTRE</button>
+                    </div>
+                </form>
+        </section>
+        <footer class="footer">
+            <p>Copyright &copy; - Café Florette 2022 </p>
+        </footer>
+    </div>
+</body>
+</html>
